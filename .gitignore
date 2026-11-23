@@ -1,0 +1,14 @@
+# environments and notebook clutter
+.venv*/
+__pycache__/
+.ipynb_checkpoints/
+# licensed data: only the checksum list is tracked
+datasets/**
+!datasets/MANIFEST.sha256
+# weights: only the checksum list is tracked
+models/**
+!models/MANIFEST.sha256
+# caches (embeddings, detections)
+results/**/cache/
+# scratch
+a.txt

@@ -1,0 +1,28 @@
+{
+ "extras": [
+  "w600k_r50",
+  "IRV1-casia"
+ ],
+ "models": 16,
+ "families": 12,
+ "reps": 800,
+ "boot": 499,
+ "seed": 1,
+ "numpy": "1.26.4",
+ "pandas": "3.0.6",
+ "M_ext": 16,
+ "gain_points_calibrated_sigma01": {
+  "0.01": 7.7,
+  "0.02": 8.9
+ },
+ "false_positive_pct": {
+  "M14": {
+   "p_rule": 0.6,
+   "p_rule_wild": 2.6
+  },
+  "M16": {
+   "p_rule": 1.2,
+   "p_rule_wild": 3.1
+  }
+ }
+}

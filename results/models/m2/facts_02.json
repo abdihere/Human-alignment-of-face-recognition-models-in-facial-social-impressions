@@ -1,0 +1,81 @@
+{
+ "stimulus_images": 2819,
+ "recognition_photos_found": 1207,
+ "gate_pass": true,
+ "gate": {
+  "FaceNet512": {
+   "diff_all": 0.000197,
+   "diff_usafd": 0.000897,
+   "diff_dprime": 0.0
+  },
+  "GhostFaceNet": {
+   "diff_all": 0.0,
+   "diff_usafd": 0.0,
+   "diff_dprime": 0.0
+  }
+ },
+ "detection_stim": {
+  "ok": 2758,
+  "low_threshold": 36,
+  "none": 25
+ },
+ "detection_recog": {
+  "ok": 1203,
+  "low_threshold": 4
+ },
+ "onnx": {
+  "w600k_r50": {
+   "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+   "input_mean": 127.5,
+   "input_std": 127.5
+  }
+ },
+ "torch_cudnn": false,
+ "irv1_weights": {
+  "IRV1-casia": "7a67afdbbc995fce5e10128675e318799a70698c2f433ba75dd7eb9a2f096e7d"
+ },
+ "predictors": {
+  "w600k_r50": {
+   "align_usafd": 0.098347,
+   "align_all": 0.115111,
+   "dprime": 11.1585
+  },
+  "IRV1-casia": {
+   "align_usafd": 0.257204,
+   "align_all": 0.268818,
+   "dprime": 4.9575
+  },
+  "FaceNet512 (re-extracted)": {
+   "align_usafd": 0.248774,
+   "align_all": 0.263684,
+   "dprime": 4.1907
+  },
+  "GhostFaceNet (re-extracted)": {
+   "align_usafd": 0.190163,
+   "align_all": 0.206652,
+   "dprime": 3.394
+  }
+ },
+ "calibration_min_same_network_rsa": 0.8388,
+ "duplicate_rule": "RSA >= 0.98, or cosine median >= 0.99 and p01 >= 0.95, or cosine median >= 0.5 (shared weights; deviation 23 Nov 2026)",
+ "duplicates": {
+  "w600k_r50": "-",
+  "IRV1-casia": "-"
+ },
+ "nearest_rsa": {
+  "w600k_r50": [
+   "ArcFace100",
+   0.6618
+  ],
+  "IRV1-casia": [
+   "FaceNet512",
+   0.6431
+  ]
+ },
+ "included": [
+  "w600k_r50",
+  "IRV1-casia"
+ ],
+ "final_M": 16,
+ "final_families": 12
+}

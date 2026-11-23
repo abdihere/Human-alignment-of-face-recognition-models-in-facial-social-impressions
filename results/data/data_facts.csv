@@ -1,0 +1,99 @@
+section,quantity,value,expected,tolerance,status
+3,valid trials (release file),33465,33465,0.0,MATCH
+3,USAFD faces total,2222,2222,0.0,MATCH
+3,CFD faces total,597,597,0.0,MATCH
+3,main set (USAFD in a trial),1678,1678,0.0,MATCH
+3,hold-out set (USAFD in no trial),544,544,0.0,MATCH
+3,Hojjati set (main + CFD),2275,2275,0.0,MATCH
+3,race all White,1836,1836,0.0,MATCH
+3,race all Black,220,220,0.0,MATCH
+3,race all Hispanic,72,72,0.0,MATCH
+3,race all East Asian,63,63,0.0,MATCH
+3,race all Middle Eastern,24,24,0.0,MATCH
+3,race all South Asian,5,5,0.0,MATCH
+3,race all Other,2,2,0.0,MATCH
+3,gender Male all,1269,1269,0.0,MATCH
+3,gender Female all,953,953,0.0,MATCH
+3,age all <20,32,32,0.0,MATCH
+3,age all 20-30,647,647,0.0,MATCH
+3,age all 30-45,835,835,0.0,MATCH
+3,age all 45-60,524,524,0.0,MATCH
+3,age all 60+,180,180,0.0,MATCH
+3,age all Missing,4,4,0.0,MATCH
+3,race main White,1402,1402,0.0,MATCH
+3,race main Black,169,169,0.0,MATCH
+3,race main Hispanic,45,45,0.0,MATCH
+3,race main East Asian,42,42,0.0,MATCH
+3,race main Middle Eastern,15,15,0.0,MATCH
+3,race main South Asian,5,5,0.0,MATCH
+3,race main Other,0,0,0.0,MATCH
+3,gender Male main,964,964,0.0,MATCH
+3,gender Female main,714,714,0.0,MATCH
+3,age main <20,25,25,0.0,MATCH
+3,age main 20-30,473,473,0.0,MATCH
+3,age main 30-45,674,674,0.0,MATCH
+3,age main 45-60,390,390,0.0,MATCH
+3,age main 60+,116,116,0.0,MATCH
+3,age main Missing,0,0,0.0,MATCH
+3,race holdout White,434,434,0.0,MATCH
+3,race holdout Black,51,51,0.0,MATCH
+3,race holdout Hispanic,27,27,0.0,MATCH
+3,race holdout East Asian,21,21,0.0,MATCH
+3,race holdout Middle Eastern,9,9,0.0,MATCH
+3,race holdout South Asian,0,0,0.0,MATCH
+3,race holdout Other,2,2,0.0,MATCH
+3,gender Male holdout,305,305,0.0,MATCH
+3,gender Female holdout,239,239,0.0,MATCH
+3,age holdout <20,7,7,0.0,MATCH
+3,age holdout 20-30,174,174,0.0,MATCH
+3,age holdout 30-45,161,161,0.0,MATCH
+3,age holdout 45-60,134,134,0.0,MATCH
+3,age holdout 60+,64,64,0.0,MATCH
+3,age holdout Missing,4,4,0.0,MATCH
+4,alignment ArcFace18 All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment ArcFace34 All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment ArcFace50 All vs released,0,0,1e-06,MATCH
+4,alignment ArcFace100 All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment swinface All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment FaceNet All vs released,5.55112e-17,0,1e-06,MATCH
+4,alignment FaceNet512 All vs released,0,0,1e-06,MATCH
+4,alignment Dlib All vs released,5.55112e-17,0,1e-06,MATCH
+4,alignment VGG-Face All vs released,0,0,1e-06,MATCH
+4,alignment GhostFaceNet All vs released,0,0,1e-06,MATCH
+4,alignment SFace All vs released,0,0,1e-06,MATCH
+4,alignment DeepFace All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment OpenFace All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment DeepID All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment AAM All vs released,2.77556e-17,0,1e-06,MATCH
+4,alignment StyleGAN2 All vs released,2.77556e-17,0,1e-06,MATCH
+5,positive pairs,1494,1494,0.0,MATCH
+5,negative pairs,13500,13500,0.0,MATCH
+5,identities,566,566,0.0,MATCH
+5,identities with positives,158,158,0.0,MATCH
+7,psychology rows,33430,33430,0.0,MATCH
+7,rater 1236 rows,1464,1464,0.0,MATCH
+8,reliability emotStable SB,0.718884,,0.0,NEW
+8,reliability attractive SB,0.883742,,0.0,NEW
+8,reliability happy SB,0.890158,,0.0,NEW
+8,reliability responsible SB,0.745903,,0.0,NEW
+8,reliability intelligent SB,0.678434,,0.0,NEW
+8,reliability trustworthy SB,0.796318,,0.0,NEW
+8,reliability confident SB,0.743257,,0.0,NEW
+8,reliability caring SB,0.85762,,0.0,NEW
+8,reliability calm SB,0.740139,,0.0,NEW
+8,reliability humble SB,0.784236,,0.0,NEW
+8,reliability interesting SB,0.706753,,0.0,NEW
+8,reliability normal SB,0.743276,,0.0,NEW
+8,reliability kind SB,0.839443,,0.0,NEW
+8,reliability sociable SB,0.836388,,0.0,NEW
+9,structure main factor1 pct,73.797,73.8,0.5,MATCH
+9,structure main mean abs r,0.708529,,0.0,NEW
+9,structure main pairs>0.5,83,,0.0,NEW
+9,structure main parallel factors,2,,0.0,NEW
+9,structure holdout factor1 pct,68.2224,68.2,0.5,MATCH
+9,structure holdout mean abs r,0.64624,,0.0,NEW
+9,structure holdout pairs>0.5,72,,0.0,NEW
+9,structure holdout parallel factors,2,,0.0,NEW
+10,mean hit rate pct,51.6115,51.6,0.1,MATCH
+10,mean FAR pct,14.4058,14.4,0.1,MATCH
+12,CFD norming rows,597,597,0.0,MATCH

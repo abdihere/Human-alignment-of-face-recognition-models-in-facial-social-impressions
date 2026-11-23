@@ -1,0 +1,14 @@
+quantity,value
+Similarity trials,"33,465 (1,173 with a repeated face)"
+Faces: main / hold-out / CFD,"1,678 / 544 / 597"
+"Alignment, recognition models",0.145 (ArcFace100) to 0.321 (Dlib)
+"Alignment, AAM / StyleGAN2",0.196 / 0.202
+"Alignment reproduction, max |diff|",5.6e-17
+Recognition d′,0.78 to 9.57
+Alignment vs d′ (models),Spearman ρ = -0.36
+Fold contamination,33.5–35.4% of test faces per fold
+"Reliability, 14 core traits",mean 0.783 (0.678–0.890)
+"PC1 variance, main / hold-out",73.8% / 68.2%
+Main vs hold-out (p): race / gender / age,0.016 / 0.61 / 2.3e-05
+Memorability HR / FAR,51.6% / 14.4%
+CFD self-reported race,"Black 197, White 183, Asian 109, Latino 108"

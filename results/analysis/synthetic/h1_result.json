@@ -1,0 +1,54 @@
+{
+ "n_models": 16,
+ "n_families": 12,
+ "b_alignment": -0.013146806620967733,
+ "t_alignment": -6.597666682494362,
+ "p_wild_one_sided": 0.0045,
+ "b_holdout": -0.01518008041992117,
+ "lofo": {
+  "Dlib": -0.01050807133477826,
+  "FaceNet": -0.01373308892907115,
+  "VGG-Face": -0.013136452301458514,
+  "GhostFaceNet": -0.012800011665306976,
+  "OpenFace": -0.01350402381431312,
+  "ArcFace": -0.014287908448990675,
+  "SFace": -0.013402831078892043,
+  "DeepFace": -0.01358077396282736,
+  "SwinFace": -0.012531799846370107,
+  "DeepID": -0.013627936631090801,
+  "R50-WebFace600K": -0.013495672678777455,
+  "IRV1-CASIA": -0.013323809318233801
+ },
+ "conditions": {
+  "wild_p_below_0.025": true,
+  "lofo_all_negative": true,
+  "holdout_negative": true
+ },
+ "supported": true,
+ "B": 1999,
+ "coefficients": {
+  "intercept": 0.02031421462566823,
+  "alignment": -0.013146806620967733,
+  "dprime_c": -7.136936839915285e-05,
+  "dprime_c2": -0.0015932522642305375,
+  "mean_rho": -0.010548397718130341
+ },
+ "cr1_se": {
+  "intercept": 0.001044759616190555,
+  "alignment": 0.0019926448627437116,
+  "dprime_c": 0.000920744842186549,
+  "dprime_c2": 0.00139339638001985,
+  "mean_rho": 0.0010710471065919498
+ },
+ "descriptive_only": false,
+ "align_all_trials_sensitivity": {
+  "b": -0.013417189543759193,
+  "t": -8.124619745952977,
+  "p": 0.0035
+ },
+ "uncorrected_sensitivity": {
+  "b": -0.013160880750792737,
+  "t": -6.6037339057345426,
+  "p": 0.0045
+ }
+}

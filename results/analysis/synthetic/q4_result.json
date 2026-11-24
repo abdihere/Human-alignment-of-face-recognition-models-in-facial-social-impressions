@@ -1,0 +1,51 @@
+{
+ "assoc_traits": {
+  "attractive": 0.5588235294117647,
+  "emotStable": 0.5117647058823529,
+  "normal": 0.5176470588235293,
+  "responsible": 0.4588235294117647,
+  "trustworthy": 0.2735294117647059,
+  "confident": 0.4823529411764706,
+  "sociable": 0.4794117647058824,
+  "caring": 0.31764705882352945,
+  "humble": 0.5147058823529412,
+  "calm": 0.38235294117647056,
+  "happy": 0.3382352941176471,
+  "kind": 0.28823529411764703,
+  "intelligent": 0.4794117647058824,
+  "interesting": 0.3147058823529411
+ },
+ "p25_traits": 0.32279411764705884,
+ "memorability": {
+  "mem_logit_hr": {
+   "assoc": -0.4558823529411765,
+   "distinct": true
+  },
+  "mem_logit_far": {
+   "assoc": 0.4294117647058823,
+   "distinct": false
+  },
+  "mem_dprime": {
+   "assoc": -0.4794117647058824,
+   "distinct": true
+  }
+ },
+ "accuracy_mem_logit_hr": {
+  "Dlib": 0.8287,
+  "FaceNet512": 0.865,
+  "FaceNet": 0.8416,
+  "VGG-Face": 0.8711,
+  "GhostFaceNet": 0.8682,
+  "OpenFace": 0.8437,
+  "ArcFace18": 0.8673,
+  "SFace": 0.8438,
+  "DeepFace": 0.8786,
+  "ArcFace34": 0.872,
+  "ArcFace50": 0.8728,
+  "swinface": 0.8706,
+  "ArcFace100": 0.869,
+  "DeepID": 0.8502,
+  "w600k_r50": 0.8674,
+  "IRV1-casia": 0.8624
+ }
+}

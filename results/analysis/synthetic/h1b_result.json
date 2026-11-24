@@ -1,0 +1,46 @@
+{
+ "aligned": {
+  "mean_dL": -0.022571859210311067,
+  "ci95": [
+   -0.040188697471283605,
+   -0.009068839481259063
+  ],
+  "wilcoxon_p_greater": 0.9994964599609375,
+  "n_positive": 3
+ },
+ "placebo": {
+  "mean_dL": -0.0023795904851130977,
+  "ci95": [
+   -0.006843792886108367,
+   0.0020768613681902254
+  ],
+  "wilcoxon_p_greater": 0.912322998046875,
+  "n_positive": 5
+ },
+ "matched_random": {
+  "mean_dL": 0.0015853382202622095,
+  "ci95": [
+   -0.0002880827130206589,
+   0.004054427572391721
+  ],
+  "wilcoxon_p_greater": 0.2982940673828125,
+  "n_positive": 8
+ },
+ "cv": {
+  "mean_dL": -0.024156623581461048,
+  "ci95": [
+   -0.04157641990703392,
+   -0.008721554966529646
+  ],
+  "wilcoxon_p_greater": 0.9994964599609375,
+  "n_positive": 3
+ },
+ "manipulation_check": {
+  "mean_align_unseen_raw": 0.09966980427055805,
+  "mean_align_unseen_aligned": 0.05457110147097896,
+  "n_models_improved": 0
+ },
+ "transform_impl": "hojjati",
+ "epochs": 1,
+ "transform_validation_passed": true
+}

@@ -18,7 +18,20 @@ This project asks whether alignment, rather than accuracy, determines how _speci
 | **Q3**  | Are predictions more demographically uneven than people's ratings, and does this change with alignment?                                         | exploratory  |
 | **Q4**  | Does alignment matter differently for memorability than for social traits?                                                                      | exploratory  |
 
-The full rationale, design and decision rules are in the preregistration pages, also kept in [`notes/osf/`](notes/osf/).
+The full rationale, design and decision rules are in the preregistration pages below. They are the same pages as the OSF wiki.
+
+## Preregistration pages
+
+0. [Home](notes/osf/00_home.md)
+1. [Background and rationale](notes/osf/01_background.md)
+2. [Research questions and hypotheses](notes/osf/02_questions_and_hypotheses.md)
+3. [Faces and human ratings](notes/osf/03_faces_and_ratings.md)
+4. [Models](notes/osf/04_models.md)
+5. [Analysis plan](notes/osf/05_analysis_plan.md)
+6. [Sensitivity and validation](notes/osf/06_sensitivity_and_validation.md)
+7. [Contingencies, existing data and deviations](notes/osf/07_contingencies_and_deviations.md)
+8. [Reproducibility](notes/osf/08_reproducibility.md)
+9. [Glossary](notes/osf/09_glossary.md)
 
 ## Data and models
 

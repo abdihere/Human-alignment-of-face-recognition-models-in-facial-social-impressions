@@ -67,7 +67,9 @@ Before registration, the following are fixed in a tagged commit of the repositor
 - the analysis notebook (`notebooks/03_analysis.ipynb`) and the environment lock file;
 - the transformation code (Zenodo version 2) and its validation (`results/analysis/transform_validation.csv`).
 
-**Freeze tag:** [to be added] · **Commit:** [to be added] · **Date:** [to be added]
+The checksums of these items are recorded in [`FREEZE.sha256`](https://github.com/abdihere/Human-alignment-of-face-recognition-models-in-facial-social-impressions/blob/prereg-freeze/FREEZE.sha256) at the repository root.
+
+**Freeze tag:** [`prereg-freeze`](https://github.com/abdihere/Human-alignment-of-face-recognition-models-in-facial-social-impressions/tree/prereg-freeze) · **Commit:** `e53be1bf9688730f0f369814215dad571e492777` · **Date:** 26 November 2026
 
 ## Repository layout
 

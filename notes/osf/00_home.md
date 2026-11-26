@@ -11,7 +11,7 @@ Face-recognition models turn a face into a list of numbers. Some models judge fa
 |         | Question                                                                                                                                                       | Role                       |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | **H1**  | Across 16 models, is higher alignment associated with lower excess leakage, controlling for recognition accuracy (d′, d′²) and mean trait-prediction accuracy? | the only confirmatory test |
-| **H1b** | Does Hojjati et al.'s alignment transformation, retrained without the evaluation faces, lower excess leakage on 544 unseen faces?                              | secondary                  |
+| **H1b** | Does Hojjati et al.'s alignment transformation, trained without the evaluation faces, lower excess leakage on 544 unseen faces?                              | secondary                  |
 | **Q2**  | Does the structure of predicted impressions become richer than prediction noise alone would produce as alignment rises?                                        | exploratory                |
 | **Q3**  | Do predictions show larger demographic gaps than people's ratings (gender, White vs non-White, their combination, age), and does this change with alignment?   | exploratory                |
 | **Q4**  | Does measured memorability relate to alignment differently from the social traits?                                                                             | exploratory                |
@@ -24,15 +24,15 @@ Face-recognition models turn a face into a list of numbers. Some models judge fa
 
 ## Pages
 
-1. Data and materials
-2. Models, pipelines and the freeze
-3. Measures and analysis plan
-4. Hypotheses and decision rules
-5. Validation and power
-6. Rules and fallbacks
-7. Existing data and disclosures
-8. Primer and glossary
-9. Where things live and what results mean
+1. Background and rationale
+2. Research questions and hypotheses
+3. Faces and human ratings
+4. Models
+5. Analysis plan
+6. Sensitivity and validation
+7. Contingencies, existing data and deviations
+8. Reproducibility
+9. Glossary
 
 ## Links
 

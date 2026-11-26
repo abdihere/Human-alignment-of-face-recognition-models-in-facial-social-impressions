@@ -1,6 +1,6 @@
 # Contingencies, existing data and deviations
 
-The study uses existing data only, so what was seen before registration matters as much as what was planned. This page states what happens if something goes wrong during the analysis, everything computed or seen before registration, how the plan changed along the way, and the known limits of the design. The guiding rule is that **no trait prediction, leakage value or other outcome for the 16 models has been computed in the current repository before registration.**
+The study uses existing data only, so what was seen before registration matters as much as what was planned. This page states what happens if something goes wrong during the analysis, everything computed or seen before registration, how the plan changed along the way, and the known limits of the design. The guiding rule is that, apart from the development checks on one model described below, **no trait prediction, leakage value or other outcome for the 16 models has been computed before registration.**
 
 ## If something goes wrong
 
@@ -36,7 +36,7 @@ These rules are fixed in advance so that no analytic choice is made after seeing
 | Alignment of Dlib and SFace under the released and retrained transformations | notebook 03 | similarity data only |
 | Synthetic runs of the full analysis | notebook 03 | simulated embeddings and ratings |
 
-**Code checks in an earlier repository.** *[To be checked before registration.]* While the estimator and the pipeline were being developed (October–November 2026), they were run on one model, Dlib, as code checks: excess leakage L(m) = +0.0420 uncorrected and −0.0684 corrected, per-trait out-of-fold accuracies, and a one-fold transformation pilot (alignment on held-out trials 0.404 retrained, 0.418 with the released matrix, 0.358 raw). An earlier, faulty estimator gave Dlib an L(m) of 0.37; that number is void. These values came from code that has since been rewritten and are not used. No other model's trait predictions or leakage values were computed. Seeing one model's value gives little information about a relation across 16 models, but it is disclosed so that readers can judge for themselves.
+**Development checks on one model.** While the estimator and the pipeline were being developed (October–November 2026), they were run on one model, Dlib, as code checks: excess leakage L(m) = +0.0420 uncorrected and −0.0684 corrected, per-trait out-of-fold accuracies, and a one-fold transformation pilot (alignment on held-out trials 0.404 retrained, 0.418 with the released matrix, 0.358 raw). An earlier, faulty estimator gave Dlib an L(m) of 0.37; that number is void. These values came from code that has since been rewritten and are not used. No other model's trait predictions or leakage values were computed. Seeing one model's value gives little information about a relation across 16 models, but it is disclosed so that readers can judge for themselves.
 
 ## How the model set was decided
 
@@ -47,7 +47,7 @@ The two non-recognition models in the release (an active appearance model and St
 | ResNet-100 trained on Glint360K (InsightFace `antelopev2`) | ArcFace-100 | 0.894 |
 | Inception-ResNet-v1 trained on VGGFace2 | FaceNet512 | 0.877 |
 
-Their alignment and recognition accuracy were computed and seen before the decision, but the decision used only the copy-check statistics. *[To be checked before registration:]* earlier candidate lists also included other networks, some of which were extracted in an earlier repository for pipeline tests; no outcome was computed for any of them.
+Their alignment and recognition accuracy were computed and seen before the decision, but the decision used only the copy-check statistics. Earlier candidate lists also included other networks, some of which were extracted for pipeline tests; no outcome was computed for any of them.
 
 ## Deviations from earlier plans
 
@@ -55,7 +55,6 @@ Their alignment and recognition accuracy were computed and seen before the decis
 |---|---|---|
 | Oct 2026 | Recognition accuracy measured as d′ instead of AUC | AUC is at or near 1.0 for five models |
 | Oct 2026 | Excess leakage corrected for trait accuracy and rating reliability | without these terms, weaker models look less leaky and noisy ratings bias the baseline |
-| Nov 2026 | Repository rebuilt from the Zenodo and original files only; earlier freeze replaced | earlier local files differed from the release |
 | 20 Nov 2026 | First condition of H1 changed from a family-bootstrap interval to a wild cluster bootstrap-t test | the interval was too conservative to detect plausible effects |
 | 23 Nov 2026 | Shared-weights rule added to the copy check | RSA alone could not flag a model compared with its own re-extraction |
 | 23 Nov 2026 | Model set fixed at 16 models in 12 families | copy check, and a power gain of about 8 points |

@@ -62,6 +62,7 @@ Before registration, the following are fixed in a tagged commit of the repositor
 - the data and weight checksum lists;
 - the derived human data (`results/data/trait_scores_20.csv`, `reliability.csv`, `face_sets.csv`);
 - the model-level predictors (`results/data/models_table.csv`, `results/models/m2/predictors_m2.csv`);
+- the checksums of the extension models' embeddings (`results/models/m2/cache_MANIFEST.sha256`), which are not tracked themselves;
 - the face-level fold partition (`results/analysis/folds_10x5.csv`);
 - the analysis notebook (`notebooks/03_analysis.ipynb`) and the environment lock file;
 - the transformation code (Zenodo version 2) and its validation (`results/analysis/transform_validation.csv`).
